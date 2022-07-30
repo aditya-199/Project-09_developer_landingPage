@@ -1,0 +1,382 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  --white: #ffffff;
+  --bluesh: #33339d;
+  --black: #000;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: var(--bluesh);
+  height: 20rem;
+  width: 95rem;
+  position: relative;
+  padding: 1rem 5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 34rem;
+  height: 3rem;
+  /* padding: 0 20rem; */
+  /* background-color: aqua; */
+  position: absolute;
+  right: 5rem;
+  color: var(--white);
+}
+
+header nav .nav-item-active {
+  border: 1px solid var(--white);
+  background-color: var(--white);
+  color: var(--bluesh);
+  padding: 0.1rem .5rem;
+}
+
+/* header {
+  margin-bottom: 3rem;
+} */
+
+header div .logo {
+  /* background-color: brown; */
+  width: 8rem;
+  height: 3rem;
+  position: absolute;
+  left: 5rem;
+  top: .5rem;
+  /* margin-bottom: 13rem; */
+}
+
+.header-text {
+  padding-top: 8rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  color: var(--white);
+  /* background-color: chocolate;  */
+  width: 36rem;
+}
+
+.header-text h2 {
+  font-size: 2.2rem;
+}
+
+.header-text p {
+  font-size: 1rem;
+}
+
+header div .header-image {
+  position: absolute;
+  /* background-color: yellowgreen; */
+  top: 5.5rem;
+  right: 0;
+  width: 21rem;
+  height: 20rem;
+}
+
+.companies {
+  padding: 1rem 5rem;
+  width: 60rem;
+  /* background-color: aqua; */
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.companies a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--black);
+}
+
+.api {
+  padding: 5rem 5rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 83rem;
+  /* background-color: aqua; */
+  height: 11rem;
+  padding-top: 4rem;
+
+}
+
+.cards::after{
+  content: url(./images/icons8-chevron-right-26.png);
+  background-color: var(--bluesh);
+  top: 0;
+  right: 0;
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.card-active h3{
+  color: var(--bluesh);
+}
+
+.cards .card:nth-child(3) {
+  /* background-color: #33339d; */
+  position: relative;
+  top: -13px;
+}
+
+.blog-heading {
+  /* background-color: aquamarine; */
+  height: 7rem;
+  padding: 2rem 5rem;
+}
+
+.blog-cards {
+  padding: 3rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  /* position: relative; */
+}
+
+
+
+.blog-card {
+  width: 41rem;
+  display: flex;
+  box-shadow: 10px 5px 5px rgb(0 0 0 / 20%);
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+.blog-image{
+  padding-right: 4rem;
+}
+
+
+
+.blog-bottom{
+  position: relative;
+  bottom: -110px;
+    right: 244px;
+} 
+
+.blog-author{
+  position: relative;
+  bottom: -52px;
+    right: 112px;
+}
+
+/* .blog-image{
+  grid-row: 1/-1;
+  grid-column: 0/1;
+
+} */
+.blog-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 34rem;
+  padding-bottom: 5rem;
+  margin-bottom: 2rem;
+ 
+}
+
+.blog-content :is(h6,h3){
+  padding-bottom: 1rem;
+} 
+
+.blog-content h6{
+  color: var(--bluesh);
+}
+
+.blog-bottom{
+  position: absolute;
+    bottom: -2rem;
+    /* right: 214px; */
+    left: 19rem;
+}
+
+.blog-author{
+  position: absolute;
+    bottom: 0.1rem;
+    right: 4.5rem;
+    width: 9rem;
+}
+
+.faq-section {
+  padding: 3rem 5rem;
+  display: flex;
+  /* background-color: chartreuse; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .faq-content{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+} */
+
+.faq-content h2 {
+  width: 24rem;
+  height: 87px;
+  font-size: 1.8rem;
+  font-weight: 900;
+  /* background-color: antiquewhite; */
+}
+
+.faq-content h4 {
+  width: 40rem;
+  /* background-color: aqua; */
+  font-size: 0.8rem;
+  padding: 1rem 0;
+}
+
+.faq-content button{
+  padding: .5rem 1rem;
+  border: none;
+  background: transparent;
+  background-color: var(--bluesh);
+  color: var(--white);
+}
+
+.faq-image{
+  position: relative;
+    right: -81px;
+}
+
+.download-section{
+  padding: 0rem 5rem;
+  height: 12rem;
+  /* background-color: brown;  */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.download-content h1{
+  font-weight: bolder;
+  font-size: 1.8rem;
+}
+
+.download-content span{
+  font-weight: lighter;
+  font-size: 1.7rem;
+}
+.download-email{
+  width: 43rem;
+  /* background-color: #33339d; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.download-email form{
+  width: 37rem;
+    height: 4rem;
+    text-align: end;
+    line-height: 4rem;
+}
+
+.download-email input[placeholder]{
+  padding: 1rem 4rem;
+  border-radius: 4rem;
+  border: none;
+  background: transparent;
+  outline: none;
+  color: var(--black);
+  margin-right: 1rem;
+}
+
+.download-email button{
+  padding: 1rem 4rem;
+  color: var(--white);
+  border-radius: 3rem;
+  border: none;
+  background-color: var(--bluesh);
+}
+
+.footer-section{
+  padding: 0 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10rem;
+  background-color: var(--bluesh);
+}
+
+.footer-section .footer-left, .footer-section .footer-right{
+  display: flex;
+  height: 6rem;
+  flex-direction: column;
+  width: 50%;
+
+}
+.footer-section .footer-left{
+  /* background-color: aqua; */
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footer-left .list, .footer-right .logos-list{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0;
+  color: var(--white);
+
+}
+
+.footer-left .list .list-items, .footer-right .logos-list .list-items{
+  font-size: 0.9rem;
+  font-weight: 200;
+  padding: 0 1rem;
+  position: relative;
+}
+
+.footer-left .list .list-items::after, .footer-right .logos-list .list-items::after{
+  content: '|';
+  position: absolute;
+  right: 0;
+  width: .2rem;  
+}
+
+/* .footer-left .list .list-items:last-child::after, .footer-right .logos-list .list-items::after:last-child::after{
+  content: '';
+  display: none;
+  background-color: black;
+} */
+
+.footer-left .list .list-items:first-child{
+  padding: 0 2rem 0 0;
+}
+
+.footer-section .footer-right{
+  /* background-color: brown; */
+  justify-content: center;
+  align-items: flex-end;
+}
+      
+.footer-logos{
+  padding: 0 .7rem;
+}

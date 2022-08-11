@@ -3,10 +3,15 @@
 ## _Name : ADITYA BANKAR_
 
 ![](./images/sCREENSHOT09.png)
+![](./screen-shots/Screenshot_mobile.png)
 
 ## ABOUT PAGE 
 
-> In this project i learnt about the whole landing page. how it works (Like how much margin needs to be inserted to make the website look beautiful). I learnt about positioning, flexbox
+> In this project i learnt about how to make whole landing page responsive using media queries. How it works . 
+I learnt about positioning, flexbox, min-width and max-width.
+1. Transitioning
+2. Grid/ Flex
+3. max-width/ min-width
 
 ## Time Taken
 
